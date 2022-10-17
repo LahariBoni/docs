@@ -10,10 +10,6 @@ We use CRON tasks to schedule notebooks, find the syntax you need to on: [https:
 
 {% embed url="https://crontab.guru" %}
 
-{% hint style="info" %}
-A job shouldn't last more than one hour, split your work :)
-{% endhint %}
-
 Important, by default the scheduler is set to the CET Timezone. If you are in another timezone, you would need to use the Timezone low-code formula to sync your server with your timezone.
 
 Check how to set up in the section below:
