@@ -1,14 +1,18 @@
 ---
-description: Expose assets by URL.
+Description: Remotely access your files via an URL.
 ---
 
 # 🖼 Asset
 
-{% embed url="https://www.youtube.com/watch?v=z8sTjIiZphM" %}
+### Introduction: 
+An asset is a file that can be an image, csv, excel sheet, document etc.
+Once the asset is copied to the production, an URL is generated that can be utilised to call the particular asset and access it remotely.
+
+Here’s an example video to assist you to upload and remotely access your assets with the help of Naas: "https://www.youtube.com/watch?v=z8sTjIiZphM"
 
 ## Add
 
-Copy in production this current file as an asset (file) and allow yourself to get it by calling the returned URL.
+Run the below script to copy an asset(file) in production and allow yourself to get it by calling the returned URL.
 
 ```python
 naas.asset.add()
